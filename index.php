@@ -19,13 +19,13 @@ $APP_DIR = "http://localhost/cms/files/"
 	<h1>My Files</h1>
 	<hr width="100%"></hr>
 	<?php
-	filesInDir($CMS_DIR);
+	simpleCMS($CMS_DIR);
 	?>
 </body>
 </html>
 
 <?php
-function filesInDir($tdir){
+function simpleCMS($tdir){
 		global $CMS_DIR;
 		global $APP_DIR;
 
