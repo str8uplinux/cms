@@ -1,7 +1,5 @@
-================================================== Simple CMS ==================================================
+== Simple CMS
 
 - You must create a virtual directory in IIS or an alias in Apache
 - The name of the virtual directory/alias must be "files" and this must point to your intranet (cms) directory
 - In this example, the virtual directory "files" points to "C:/intranet"
-
-================================================================================================================
